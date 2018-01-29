@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="35dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user_chat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/default_avata"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textContentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner2"
+        android:padding="10dp"
+        android:maxWidth="240dp"
+        android:layout_alignParentTop="true"
+        android:text="A"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/image_user_chat"
+        android:layout_marginTop="11dp"
+        app:layout_constraintTop_toBottomOf="@+id/image_user_chat"
+        app:layout_constraintRight_toLeftOf="@+id/image_user_chat"
+        android:layout_marginRight="-1dp" />
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="14sp"
+        android:textColor="@color/colorSecondaryDark"
+        app:layout_constraintRight_toLeftOf="@+id/image_user_chat"
+        android:layout_marginRight="9dp"
+        app:layout_constraintTop_toTopOf="@+id/image_user_chat"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/userTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="timestamp"
+        android:textSize="10sp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/textContentUser"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textContentUser" />
+
+</android.support.constraint.ConstraintLayout>

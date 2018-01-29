@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.webczar.chat_navigate.Fragments.Login_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_rect"
+        tools:context="com.example.webczar.youngbuds.Activities.LoginActivity">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/LayoutEmailLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:theme="@style/TextLabel"
+            android:textColorHint="@color/color_white"
+            apps:hintTextAppearance="@color/colorPrimaryDark"
+            apps:layout_constraintLeft_toLeftOf="parent"
+            apps:layout_constraintRight_toRightOf="parent"
+            apps:layout_constraintTop_toTopOf="parent">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/btn_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/LayoutPassLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            apps:hintTextAppearance="@color/colorPrimaryDark"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:theme="@style/TextLabel"
+            android:textColorHint="@color/color_white"
+            apps:layout_constraintLeft_toLeftOf="parent"
+            apps:layout_constraintRight_toRightOf="parent"
+            apps:layout_constraintTop_toBottomOf="@+id/LayoutEmailLogin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/btn_pass_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:hint="@string/hint_pass"
+                android:maxLines="1"
+                tools:focusableInTouchMode="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_but"
+            android:text="@string/button_login"
+            android:textColor="@color/colorSecondary"
+            android:textStyle="bold"
+            apps:layout_constraintLeft_toLeftOf="parent"
+            apps:layout_constraintRight_toRightOf="parent"
+            apps:layout_constraintTop_toBottomOf="@+id/LayoutPassLogin"
+            tools:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_reset_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@null"
+            android:text="@string/btn_forgot"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            apps:layout_constraintHorizontal_bias="0.0"
+            apps:layout_constraintLeft_toLeftOf="parent"
+            apps:layout_constraintRight_toRightOf="parent"
+            tools:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            apps:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_login"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|bottom"
+            android:visibility="gone"
+            apps:layout_constraintLeft_toLeftOf="parent"
+            apps:layout_constraintRight_toRightOf="parent"
+            apps:layout_constraintHorizontal_bias="0.501"
+            android:layout_marginTop="8dp"
+            apps:layout_constraintTop_toBottomOf="@+id/btn_reset_login" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

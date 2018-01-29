@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    card_view:cardBackgroundColor="@color/colorCardView"
+    card_view:cardCornerRadius="5dp"
+    tools:layout_editor_absoluteX="18dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btnMoreAction"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_btn_more" />
+
+        <TextView
+            android:id="@+id/icon_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnMoreAction"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="V"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icon_group"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="NorthSide's Boy "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

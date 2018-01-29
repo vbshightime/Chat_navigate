@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="@string/group_delete_lbl"
+        android:id="@+id/group_delete_id"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:title="@string/group_edit_lbl"
+        android:id="@+id/group_edit_id"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/group_leave_lbl"
+        android:id="@+id/group_leave_id"
+        app:showAsAction="never"
+        />
+
+
+</menu>

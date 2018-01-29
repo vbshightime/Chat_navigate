@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">WebSaar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="friend_label">Friends</string>
+    <string name="profile_label">Profile</string>
+    <string name="group_label">Group</string>
+    <string name="library_label">Library</string>
+
+    <string-array name="titles_fragment">
+        <item>Friends</item>
+        <item>Profile</item>
+        <item>Group</item>
+        <item>Library</item>
+    </string-array>
+    <string name="message_label">Change Profile Picture</string>
+    <string name="birthDate">Enter Date Of Birth</string>
+    <string name="btn_login_signUp">Already registered. Login Me!</string>
+    <string name="button_signup_login">Not a Member? Get register to firebase now</string>
+    <string name="min_password">Password too short, Enter minimum 6 characters</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="button_login">Sign In</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="forgot_instruction">we just need your registered Email Id to sent your password reset instruction</string>
+    <string name="btn_reset_pass">Reset Password</string>
+    <string name="btn_label_back"><![CDATA[<<Back]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_name">User Name</string>
+    <string name="con_pass">Confirm Password</string>
+    <string name="pass_length">Minimum 6 characters required</string>
+    <string name="connection">The email address is already in use by another account</string>
+    <string name="single_chat_label">Single</string>
+    <string name="group_chat_label">Group</string>
+    <string name="contacts">Contacts</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="Home_nav">Home</string>
+    <string name="Profile_nav">Profile</string>
+    <string name="Friends_nav">Friends</string>
+    <string name="Library_nav">Library</string>
+    <string name="open_drawer">Open Navigatioon Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="err_msg_email">Enter email address</string>
+    <string name="err_msg_pass">Enter Password</string>
+    <string name="btn_signUp">Register</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Password</string>
+    <string name="btn_forgot">Forgot  Password</string>
+    <string name="set_signOut_lbl">Sign Out</string>
+    <string name="set_reset_lbl">Reset Password</string>
+    <string name="err_msg_valid_email">It is not a valid email address</string>
+    <string name="err_msg_conpass">Password did not match</string>
+    <string name="group_delete_lbl">Delete Group</string>
+    <string name="group_edit_lbl">Edit Group</string>
+    <string name="group_leave_lbl">Leave Group</string>
+    <string name="enter_group_name">Enter Group N</string>
+    <string name="err_msg_name">Enter Your User Name</string>
+    <string name="err_msg_name_validate">User Name already taken</string>
+
+</resources>
